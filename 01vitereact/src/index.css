@@ -1,28 +1,17 @@
-.Card{
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px hwb(0 27% 73%);
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    max-width: 250px;
-    display: inline-block;
-}
+/*  CSS can be implemented in three ways:
+ 1. EXTERNAL => have to write in index.css (Great for global style or small projects)
+ 2. MODULE => have to create a different folder and then file.module.css and import it. (preffered for individual project)
+ 3. INLINE => We make a style function in button.jsx and write the css as javascript. (preffered for small stylings)
+ */
 
-.Card .card-image{
-    max-width: 100%;
-    height: auto;
-    border-radius: 40px;
-    margin-bottom: 10px;
-}
-
-.Card .card-title{
+ .Student{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid hsl(0, 5%, 12%);
+ }
+
+ .Student p{
     margin: 0;
-    color: hwb(0 13% 87%);
-}
-
-.Card .card-text{
-    font-family: Arial, Helvetica, sans-serif;
-    color: hwb(0 13% 87%);
-}
+ }
